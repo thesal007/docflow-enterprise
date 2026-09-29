@@ -1,13 +1,10 @@
 {
-  "extends": "./tsconfig.base.json",
-  "compileOnSave": false,
+  "extends": "../../tsconfig.base.json",
   "files": [],
+  "include": [],
   "references": [
     {
-      "path": "./apps/web-e2e"
-    },
-    {
-      "path": "./apps/web"
+      "path": "./tsconfig.app.json"
     }
   ]
 }
